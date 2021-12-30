@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/style.css">
+    <title>Reto1</title>
+
+</head>
+<body>
+
+<form class="formulario" onsubmit="">
+    
+    <div class="sub-cont">
+
+        <h1  class="encabezado">Conversor de Divisas</h1>
+          <img  src="https://uploadgerencie.com/imagenes/divisas.png" alt="divisas" >
+         <div>
+          <label for="Cantidad de dinero" id="label-cantidad"></label>
+          <input type="text" name="monto" id="monto" value="0" placeholder="Cantidad">
+        
+         </div>
+<div class="container-all">
+    <label for="Moneda"></label>
+    <select name="Moneda Inicial" id="moneda-init">
+        <option value="inicial" disabled >Inicial</option>
+        <option value="dolar">Dolar USA</option>
+        <option value="mexicano">Peso Mexicano</option>
+        <option value="colombiano">Peso Colombiano</option>
+        <option value="euro">Euro</option>
+        <option value="esterlina">Libra Esternina</option>
+        
+    </select> 
+    <label for="Moneda final"></label>
+    <select name="Moneda Final" id="moneda-final">
+        <option value="final" disabled>Final</option>
+        <option value="dolar">Dolar USA</option>
+        <option value="mexicano">Peso Mexicano</option>
+        <option value="colombiano">Peso Colombiano</option>
+        <option value="euro">Euro</option>
+        <option value="esterlina">Libra Esternina</option>
+        
+     </select>       
+            
+     <input type="submit" value="convertir" id="convertir">
+    
+     
+
+    </div>   
+    <span id="Resultado"></span>  <br>
+</div>
+
+</form>
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
