@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/form.css">
+    <title>Formulario</title>
+</head>
+<header>
+    <nav>
+        <ul class="menu">
+            <li class="lista"> <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cine.Ar_logo.svg/1280px-Cine.Ar_logo.svg.png"
+                    alt="logo"></li>
+            <li class="lista"><a href="./index.html">Inicio</a></li>
+            <li class="lista"><a href="./form.html">Registro</a></li>
+            <li class="lista lista-r"><a href="./contactenos.html">Contactenos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<form id="formulario">
+    
+    <h1>Registro</h1>
+    <div class="for">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Nombre"> 
+    </div>
+
+    <div class="for">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Apellido"> 
+    </div>
+
+    <div class="for">
+        <label for="telefono">Teléfono:</label>
+        <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
+    </div>
+
+    <div class="for">
+        <label for="Email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+    </div>
+
+    <div class="for">
+        <label for="direccion">Dirección:</label>
+        <input type="text" name="direccion" id="direccion" placeholder="Dirección">
+    </div>
+
+    
+    <div class="for">
+        <label for="Observaciones">Observaciones:</label> <br>
+        <textarea name="obvs" id="obs" cols="30" rows="10"></textarea>
+    </div>
+<button type="submit">Enviar</button>
+
+
+</form>
+
+<div id="listar" >
+    
+</body>
+</html>
+
+<script src="./scripts/form.js"></script>

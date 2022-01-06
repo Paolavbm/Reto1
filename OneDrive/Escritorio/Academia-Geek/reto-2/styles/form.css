@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Sarabun:ital,wght@1,500&display=swap');
+form{
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-style: groove;
+    border-color: aqua;    
+    
+}
+
+  
+form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+.for{
+    margin: 10px;
+    padding: auto;
+    
+}
+
+label{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+    width: 90px;
+    color:darkcyan
+    
+  }
+
+  input{
+      height: 20%;
+      border-color: aquamarine;
+  }
+  h1{
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  #listar{
+    position: absolute;
+     bottom: 15px; left: 15px;
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 14px;
+    font-family: "Lato";
+    letter-spacing: .1em;
+    border-radius: 20%;
+    box-shadow: burlywood;
+  
+
+  }
+  nav{
+    background-color:beige ;
+    width: 100%;
+    }
+    .menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+     .menu .lista{
+         display: inline;
+    
+     }
+    
+     .lista-r{
+         float: right;
+     }
+    
+     .lista a{
+    text-decoration: none;
+    color: rgb(red, green, blue);
+    padding: 20px 60px;
+    display: inline-block;
+    }
+    
+    .lista a:hover{
+        background-color: aqua;
+    }
+    
+    li img{
+      width: 100px;
+      height: 30px;
+      display: inline;
+      }
